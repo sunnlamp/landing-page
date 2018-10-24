@@ -1,14 +1,139 @@
 body {
+  font-family: Roboto, sans-serif;
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffbf69;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+}
+
+li a i {
+  font-size: 2rem;
+}
+
+.grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Header */
+
+header {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1.5rem 0;
+  align-items: center;
+  color: cbf3f0;
+  padding-bottom: 2rem;
+  z-index: 2;
+}
+
+header .navbar {
+  display: flex;
+}
+
+header .navbar li {
+  list-style: none;
+  margin-left: 1rem;
+}
+
+header .navbar li a {
+  font-size: 1.5rem;
+}
+
+/* Main Landing */
+
+.main-landing {
+  padding-top: 6rem;
+  padding-bottom: 1rem;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  min-height: 50vh;
+  color: #fff;
+}
+
+.main-landing-background {
+  background-image: url("./images/rogelio.jpg");
+  position: absolute;
+  
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  z-index: -1;
+  background-color: #80a3db;
+  overflow: hidden;
+}
+
+.main-landing h1 {
+  font-size: 3rem;
+  text-shadow: 0 0 4px #66757f;
+  padding-top: 1rem;
+}
+
+.main-landing h3 {
+  font-size: 2rem;
+  text-shadow: 0 0 10px #66757f;
+}
+
+.main-landing ul li img {
+  height: 350px;
+  padding: 20px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+  float: left;
+}
+
+@media (max-width: 1000px) {
+  .main-landing h1 {
+    padding-top: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .main-landing h1 {
+    padding-top: 14rem;
+  }
+}
+
+/* About */
+
+.about {
+  /* padding-top: 1rem; */
+}
+
+.about h2{
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 0 0 4px #66757f;
+}
+
+.about p {
+  color: #fff;
+  font-size: 1.15rem;
+  text-shadow: 0 0 4px #66757f;
 }
