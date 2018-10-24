@@ -23,7 +23,7 @@ export default class Nav extends Component {
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/rogelio-zamudio-b78180133/">
               <i className="fab fa-linkedin-in" aria-hidden="true">
               </i>
             </a>
