@@ -2,7 +2,7 @@ body {
   font-family: Roboto, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #a0ccda;
+  background-color: #ffe66d;
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
 
 a {
   text-decoration: none;
-  color: aliceblue;
+  color: black;
 }
 
 a:hover {
@@ -78,7 +78,6 @@ header .navbar li a {
 .main-landing-background {
   background-image: url("./images/rogelio.jpg");
   position: absolute;
-  
   left: 0;
   width: 100%;
   height: 100%;
@@ -90,13 +89,13 @@ header .navbar li a {
 
 .main-landing h1 {
   font-size: 3rem;
-  text-shadow: 0 0 4px #66757f;
+  /* text-shadow: 0 0 4px #66757f; */
   padding-top: 1rem;
 }
 
 .main-landing h3 {
   font-size: 2rem;
-  text-shadow: 0 0 10px #66757f;
+  /* text-shadow: 0 0 10px #66757f; */
 }
 
 .main-landing ul li img {
@@ -127,13 +126,16 @@ header .navbar li a {
 }
 
 .about h2{
+  padding-top: 1.5rem;
   font-size: 2rem;
-  color: #fff;
-  text-shadow: 0 0 4px #66757f;
+  font-weight: bold;
+  color: black;
+  /* text-shadow: 0 0 4px #66757f; */
 }
 
 .about p {
-  color: #fff;
-  font-size: 1.15rem;
-  text-shadow: 0 0 4px #66757f;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: bold;
+  /* text-shadow: 0 0 4px #66757f; */
 }
