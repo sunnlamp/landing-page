@@ -1,5 +1,4 @@
 import React from 'react'
-import Rogelio from './images/rogelio.jpg'
 
 const Main = () => (
   <div className="main-landing container">
