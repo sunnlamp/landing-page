@@ -85,6 +85,12 @@ header .navbar li a {
   z-index: -1;
   background-color: #80a3db;
   overflow: hidden;
+  display: block;
+  object-fit: contain
+}
+
+.main-landing-container {
+  width: 100%;
 }
 
 .main-landing h1 {
@@ -120,6 +126,9 @@ header .navbar li a {
 }
 
 /* About */
+.about {
+  padding-top: 5rem;
+}
 
 .about h2{
   padding-top: 1.5rem;
@@ -146,4 +155,53 @@ header .navbar li a {
   padding-right: .2rem;
   font-size: 1.75rem;
   color: white;
+}
+
+/* Portfolio */
+
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  background-color: #9cec5e;
+  border-radius: 2px;
+  padding: 2rem 1rem;
+  margin: 1rem;
+}
+
+.portfolio-card h4 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 .5rem;
+  font-size: .75rem;
+  text-align: center;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: .75rem;
+}
+
+.card-icons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: .75rem;
+}
+
+.card-links {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: .75rem;
 }

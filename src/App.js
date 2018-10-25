@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Nav from './Nav'
 import Main from './Main'
 import About from './About'
+import Portfolio from './Portfolio'
 
 const App = () => (
   <Router>
@@ -11,6 +12,7 @@ const App = () => (
       <div>
         <Main />
         <About />
+        <Portfolio />
       </div>
     </div>
   </Router>

@@ -3,7 +3,9 @@ import Rogelio from './images/rogelio.jpg'
 
 const Main = () => (
   <div className="main-landing container">
-    <div className="main-landing-background">
+    <div className="main-landing-container">
+      <div className="main-landing-background">
+      </div>
     </div>
     <h1>Hi, I'm Rogelio.</h1>
     <h3>Web Developer | Northwestern Coding Bootcamp TA</h3>
