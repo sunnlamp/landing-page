@@ -95,7 +95,7 @@ header .navbar li a {
 
 .main-landing h3 {
   font-size: 2rem;
-  /* text-shadow: 0 0 10px #66757f; */
+  text-shadow: 0 0 10px #66757f;
 }
 
 .main-landing ul li img {
@@ -121,10 +121,6 @@ header .navbar li a {
 
 /* About */
 
-.about {
-  /* padding-top: 1rem; */
-}
-
 .about h2{
   padding-top: 1.5rem;
   font-size: 2rem;
@@ -133,9 +129,21 @@ header .navbar li a {
   /* text-shadow: 0 0 4px #66757f; */
 }
 
+.about .tagline {
+  color: black;
+  font-size: 2rem;
+}
+
 .about p {
   color: black;
   font-size: 1.25rem;
   font-weight: bold;
   /* text-shadow: 0 0 4px #66757f; */
+}
+
+.contact i {
+  padding-left: .5rem;
+  padding-right: .2rem;
+  font-size: 1.75rem;
+  color: white;
 }
