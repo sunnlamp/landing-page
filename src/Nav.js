@@ -29,7 +29,7 @@ export default class Nav extends Component {
             </a>
           </li>
           <li>
-            <a target="_blank" rel="noopener noreferrer" href="rzamudiojr@gmail.com">
+            <a target="_top" rel="noopener noreferrer" href="mailto:rzamudiojr@gmail.com">
               <i className="fas fa-envelope" aria-hidden="true">
               </i>
             </a>
