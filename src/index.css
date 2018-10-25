@@ -170,9 +170,9 @@ header .navbar li a {
   display: flex;
   flex-direction: column;
   width: 12rem;
-  background-color: #9cec5e;
+  background-color: #b6efd4;
   border-radius: 2px;
-  padding: 2rem 1rem;
+  padding: 1rem 1rem;
   margin: 1rem;
 }
 
@@ -180,8 +180,7 @@ header .navbar li a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 0 .5rem;
-  font-size: .75rem;
+  font-size: 1rem;
   text-align: center;
 }
 
@@ -196,12 +195,26 @@ header .navbar li a {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-bottom: .75rem;
+  padding-bottom: .5rem;
+  display: inline-block;
+}
+
+.card-icons i {
+  font-size: 2rem;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
 
 .card-links {
   display: flex;
   flex-direction: column;
-  text-align: center;
-  padding-bottom: .75rem;
+  justify-content: center;
+}
+
+.card-links ul li {
+  display: flex;
+  flex-direction: column;
+  padding-left: .5rem;
+  padding-right: .5rem;
+  display: inline-block;
 }
