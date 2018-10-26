@@ -3,7 +3,7 @@ import React from 'react'
 const Nav = () => (
   <header>
     <nav className="navbar">
-      <li>
+      {/* <li>
         <a href="">
           <span>About</span>
         </a>
@@ -12,7 +12,7 @@ const Nav = () => (
         <a href="">
           <span>Portfolio</span>
         </a>
-      </li>
+      </li> */}
       <li>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp">
           <i className="fab fa-github" aria-hidden="true">
