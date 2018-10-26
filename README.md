@@ -3,6 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This project is a portfolio page. It is set up to provide a short 
 and minimal introduction. Feel free to browse the code.
 
+Visit the live site: http://www.rzamudio.com/
+
 Below you will find some information on how to perform common tasks.<br>
 You can find the most recent version of this guide [here](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md).
 
