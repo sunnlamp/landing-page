@@ -16,8 +16,8 @@ const Portfolio = () => (
       </div>
       <div className="card-links">
         <ul>
-          <li><a target="_blank" href="https://powerful-basin-94829.herokuapp.com/">Bloglive</a></li>
-          <li><a target="_blank" href="https://github.com/sunnlamp/bloglive">Repo</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://powerful-basin-94829.herokuapp.com/">Bloglive</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/bloglive">Repo</a></li>
         </ul>
       </div>
     </div>
@@ -38,15 +38,30 @@ const Portfolio = () => (
       <div className="card-links">
         <ul>
           <li><a href="#">Portfolio</a></li>
-          <li><a target="_blank" href="https://github.com/sunnlamp/landing-page">Repo</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/landing-page">Repo</a></li>
         </ul>
       </div>
     </div>
     <div className="portfolio-card">
-      <h4>Title</h4>
-      <div className="card-description">description</div>
-      <div className="card-icons">icons</div>
-      <div className="card-links">links</div>
+      <h4>New Project</h4>
+      <div className="card-description">
+        <p>
+          Social media React app for finding 
+          new music from Spotify.
+        </p>
+      </div>
+      <div className="card-icons">
+        <i className="fab fa-react">
+        </i>
+        <i className="fab fa-node-js">
+        </i>
+      </div>
+      <div className="card-links">
+        <ul>
+          <li><a href="#">BadMusic</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/landing-page">Repo</a></li>
+        </ul>
+      </div>
     </div>
     <div className="portfolio-card">
       <h4>Geekd</h4>
@@ -56,11 +71,16 @@ const Portfolio = () => (
           analysis and design documents.
         </p>
       </div>
-      <div className="card-icons">icons</div>
+      <div className="card-icons">
+        <i className="fab fa-php">
+        </i>
+        <i className="fas fa-code">
+        </i>
+      </div>
       <div className="card-links">
         <ul>
-          <li><a target="_blank" href="https://github.com/sunnlamp/Geekd/blob/master/public_html/ADD.pdf">A.D.D.</a></li>
-          <li><a target="_blank" href="https://github.com/sunnlamp/Geekd">Repo</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/Geekd/blob/master/public_html/ADD.pdf">A.D.D.</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/Geekd">Repo</a></li>
         </ul>
       </div>
     </div>

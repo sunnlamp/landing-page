@@ -217,4 +217,9 @@ header .navbar li a {
   padding-left: .5rem;
   padding-right: .5rem;
   display: inline-block;
+  justify-content: center;
+}
+
+.card-links ul li a {
+  font-weight: bold;
 }
