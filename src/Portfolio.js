@@ -1,7 +1,29 @@
 import React from 'react'
 
 const Portfolio = () => (
+  // Dry this up later by placing the into an object and use map
   <div className="portfolio">
+    <div className="portfolio-card">
+      <h4>Portfolio Site</h4>
+      <div className="card-description">
+        <p>
+          Simple portfolio site written
+          in React using flexbox.
+        </p>
+      </div>
+      <div className="card-icons">
+        <i className="fab fa-react">
+        </i>
+        <i className="fab fa-node-js">
+        </i>
+      </div>
+      <div className="card-links">
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/landing-page">Repo</a></li>
+        </ul>
+      </div>
+    </div>
     <div className="portfolio-card">
       <h4>Bloglive</h4>
       <div className="card-description">
@@ -22,11 +44,11 @@ const Portfolio = () => (
       </div>
     </div>
     <div className="portfolio-card">
-      <h4>Portfolio Site</h4>
+      <h4>WhetherMusic</h4>
       <div className="card-description">
         <p>
-          Simple portfolio site written 
-          in React using flexbox.
+          Spotify music recommendations 
+          based on the weather.
         </p>
       </div>
       <div className="card-icons">
@@ -37,29 +59,7 @@ const Portfolio = () => (
       </div>
       <div className="card-links">
         <ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/landing-page">Repo</a></li>
-        </ul>
-      </div>
-    </div>
-    <div className="portfolio-card">
-      <h4>New Project</h4>
-      <div className="card-description">
-        <p>
-          Social media React app for finding 
-          new music from Spotify.
-        </p>
-      </div>
-      <div className="card-icons">
-        <i className="fab fa-react">
-        </i>
-        <i className="fab fa-node-js">
-        </i>
-      </div>
-      <div className="card-links">
-        <ul>
-          <li><a href="#">BadMusic</a></li>
-          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/landing-page">Repo</a></li>
+          <li><a href="#">Coming soon</a></li>
         </ul>
       </div>
     </div>
@@ -79,7 +79,7 @@ const Portfolio = () => (
       </div>
       <div className="card-links">
         <ul>
-          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/Geekd/blob/master/public_html/ADD.pdf">A.D.D.</a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/Geekd/blob/master/ADD.pdf">A.D.D.</a></li>
           <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/Geekd">Repo</a></li>
         </ul>
       </div>
