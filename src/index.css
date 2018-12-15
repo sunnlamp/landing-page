@@ -5,21 +5,6 @@ body {
   background-color: #ffe66d;
 }
 
-@media only screen and (min-width: 768px) {
-  /* tablets and desktop */
-  #root {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px;
-    display: block;
-  }
-
-  .main-landing h1 {
-    padding-top: 6rem;
-  }
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -128,17 +113,7 @@ header .navbar li a {
   float: left;
 }
 
-/* @media (max-width: 1000px) {
-  .main-landing h1 {
-    padding-top: 1rem;
-  }
-} */
 
-@media (max-width: 800px) {
-  .main-landing h1 {
-    padding-top: 14rem;
-  }
-}
 
 /* About */
 .about {
@@ -237,4 +212,20 @@ header .navbar li a {
 
 .card-links ul li a {
   font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+
+  /* tablets */
+  #root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    display: block;
+  }
+
+  .main-landing h1 {
+    padding-top: 40%;
+  }
 }
