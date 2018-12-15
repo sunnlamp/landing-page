@@ -201,6 +201,7 @@ header .navbar li a {
   justify-content: center;
 }
 
+/* modify this section to improve text alignment of portfolio cards */
 .card-links ul li {
   display: flex;
   flex-direction: column;
