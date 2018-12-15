@@ -38,6 +38,9 @@ my-app/
     Portfolio.js
     serviceWorker.js
 ```
+To install the project locally, you can run:
+
+### `yarn install`
 
 In the project directory, you can run:
 
