@@ -7,8 +7,8 @@ const Portfolio = () => (
       <h4>Portfolio Site</h4>
       <div className="card-description">
         <p>
-          Simple portfolio site written
-          in React using flexbox.
+          Personal portfolio site,
+          made using React and flexbox.
         </p>
       </div>
       <div className="card-icons">
@@ -19,7 +19,7 @@ const Portfolio = () => (
       </div>
       <div className="card-links">
         <ul>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="www.rzamudio.com">Portfolio</a></li>
           <li><a target="_blank" rel="noopener noreferrer" href="https://github.com/sunnlamp/landing-page">Repo</a></li>
         </ul>
       </div>
@@ -59,7 +59,7 @@ const Portfolio = () => (
       </div>
       <div className="card-links">
         <ul>
-          <li><a href="#">Coming soon</a></li>
+          <li><a href="https://github.com/sunnlamp/whether-music">In development.</a></li>
         </ul>
       </div>
     </div>
